@@ -1,0 +1,11 @@
+document.write("<h2>对变量或值调用typeof运算符返回值<h2>");
+var width,height=10,name="rose";
+var data=new Date();
+var arr=new Array();
+document.write("width:"+typeof (width)+"<br>");
+document.write("height:"+typeof (height)+"<br>");
+document.write("name:"+typeof (name)+"<br>");
+document.write("date:"+typeof (date)+"<br>");
+document.write("arr:"+typeof (arr)+"<br>");
+document.write("true:"+typeof (true)+"<br>");
+document.write("null:"+typeof (null)+"<br>");
